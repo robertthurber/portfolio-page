@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FDEEDC ;
+    background-color: #FDEEDC;
     color: #E38B29;
 }
 
@@ -16,6 +16,7 @@ a {
 a:hover {
     color: #F1A661;
 }
+
 /* styling for the nav section  */
 
 .nav-bar {
@@ -24,7 +25,7 @@ a:hover {
     margin-top: 25px;
 }
 
-.nav-bar img{
+.nav-bar img {
     height: 50px;
     width: 50px;
     border-radius: 100%;
@@ -47,4 +48,28 @@ a:hover {
     justify-content: space-between;
 }
 
- 
+/* styling for the header section  */
+.introduction {
+    display: flex;
+    margin: 100px auto;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.introduction-left {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    width: 300px;
+}
+
+.introduction p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.introduction-right img {
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
