@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FDEEDC;
-    color: #E38B29;
 }
 
 
@@ -84,7 +82,7 @@ main h2 {
     display: flex;
     height: 1000px;
     width: 800px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .project-list {
@@ -97,4 +95,15 @@ main h2 {
     margin: 10px 0;
     height: 100px;
     width: 200px;
+ }
+
+ .project-button{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+ }
+
+ .project-button button {
+    padding: 2.5px 5px;
+    background-color: aqua;
  }
