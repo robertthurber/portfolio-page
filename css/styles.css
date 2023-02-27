@@ -21,6 +21,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    background-color: #F1A661;
 }
 
 .nav-bar img {
