@@ -139,3 +139,22 @@ main h2{
  .project-button a {
     color: #E38B29;
  }
+
+ /* styling for the about me section  */
+ .about-me h2{
+    background-color: #FDEEDC;
+    color: #E38B29;
+ }
+
+.about-me  {
+    height: 700px;
+    width: 100%;
+   
+}
+
+.about-me p {
+    color: #E38B29;
+    width: 40%;
+    margin: 0 auto;
+
+}
