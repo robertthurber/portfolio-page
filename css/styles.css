@@ -7,7 +7,11 @@
 
 
 /* here is universal selectors */
+body {
+    background-color: #FDEEDC;
+}
 a {
+
     text-decoration: none;
 }
 
@@ -21,7 +25,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    background-color: #F1A661;
 }
 
 .nav-bar img {
@@ -32,6 +35,7 @@ a:hover {
 }
 
 .nav-links {
+    color: #E38B29;
     display: flex;
     align-items: center;
 }
@@ -40,11 +44,16 @@ a:hover {
     display: flex;
     width: 500px;
     justify-content: space-around;
+    
 }
 
 .nav-links li {
     list-style-type: none;
     justify-content: space-between;
+}
+
+.nav-links a {
+    color: #E38B29;
 }
 
 /* styling for the header section  */
@@ -62,9 +71,14 @@ a:hover {
     width: 300px;
 }
 
+.introduction h1 {
+    color: #E38B29;
+}
+
 .introduction p {
     margin-top: 10px;
     line-height: 1.5;
+    color: #E38B29;
 }
 
 .introduction-right img {
@@ -74,23 +88,35 @@ a:hover {
 }
 
 /* styling for the project section  */
-main h2 {
+main h2{
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #F1A661;
+    color: #FDEEDC;
+
 }
+
 .projects {
     margin: auto;
     display: flex;
-    height: 1000px;
-    width: 800px;
-    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #F1A661;
 }
 
 .project-list {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+ }
+
+ .project-list,
+  h4,
+   p {
+    color: #FDEEDC;
  }
 
  .project-list img {
@@ -107,5 +133,9 @@ main h2 {
 
  .project-button button {
     padding: 2.5px 5px;
-    background-color: aqua;
+    background-color:#FDEEDC;
+ }
+
+ .project-button a {
+    color: #E38B29;
  }
